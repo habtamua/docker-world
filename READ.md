@@ -18,11 +18,7 @@ Older versions of Docker were called docker or docker-engine. If these are in
 
 	$ sudo apt-get remove docker docker-engine
 
-It’s OK if apt-get reports that none of these packages are installed.
-
-The contents of /var/lib/docker/, including images, containers, volumes, and networks, are preserved. 
-
-The Docker CE package is now called docker-ce, and the Docker EE package is now called docker-ee.
+It’s OK if apt-get reports that none of these packages are installed. The contents of /var/lib/docker/, including images, containers, volumes, and networks, are preserved. The Docker CE package is now called docker-ce, and the Docker EE package is now called docker-ee.
 
 Recommended extra packages for Trusty 14.04
 
