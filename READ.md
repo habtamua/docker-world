@@ -20,17 +20,17 @@ Older versions of Docker were called docker or docker-engine. If these are in
 
 It’s OK if apt-get reports that none of these packages are installed. The contents of /var/lib/docker/, including images, containers, volumes, and networks, are preserved. The Docker CE package is now called docker-ce, and the Docker EE package is now called docker-ee.
 
-Recommended extra packages for Trusty 14.04
-
-Unless you have a strong reason not to, install the linux-image-extra-* packages, which allow Docker to use the aufs storage drivers.
+Recommended extra packages for Trusty 14.04 Unless you have a strong reason not to, install the linux-image-extra-* packages, which allow Docker to use the aufs storage drivers.
+	
 	$ sudo apt-get update
+	
 	$ sudo apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual
+
 Install Docker
 
 You can install Docker in different ways, depending on your needs:
 
-Most users set up Docker’s repositories and install from them, for ease of installation and upgrade tasks. This is the recommended approach.
-•	Some users download the DEB package and install it manually and manage upgrades completely manually. This is useful in situations such as installing Docker on air-gapped systems with no access to the internet.
+Most users set up Docker’s repositories and install from them, for ease of installation and upgrade tasks. This is the recommended approach. Some users download the DEB package and install it manually and manage upgrades completely manually. This is useful in situations such as installing Docker on air-gapped systems with no access to the internet.
 
 Short Docker Installation Guide
 
