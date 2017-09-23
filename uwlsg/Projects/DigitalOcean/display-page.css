@@ -1,0 +1,23 @@
+header {
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+h1, h2, h3, h4 {text-transform:none }
+
+
+p, li {
+  font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvet\
+ica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  line-height:1.5em;
+  font-siz: 1.3em;
+}
+
+#displaywrap {
+  background-color: #C2DFFF;
+}
+
+#displaytron {
+  margin-left: 20px;
+  background-color: #C2DFFF;
+}
